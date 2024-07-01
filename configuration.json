@@ -131,7 +131,8 @@
     "no_pkg_lookups": false,
     "ntp": true,
     "offline": false,
-    "plugin" : "https://raw.githubusercontent.com/Torxed/archinstall-aur/main/archinstall_aur/__init__.py",
+    "packages_aur": ["yay-bin", "mkinitcpio-firmware"],
+    "plugin" : "https://raw.githubusercontent.com/phisch/archinstall-aur/master/archinstall-aur.py",
     "packages": [
         "ntfs-3g",
         "smartmontools",
@@ -150,8 +151,6 @@
         "wpa_supplicant",
         "xorg-server",
         "nvidia",
-	"yay-bin",
-	"mkinitcpio-firmware"
     ],
     "parallel downloads": 5,
     "profile_config": null,
