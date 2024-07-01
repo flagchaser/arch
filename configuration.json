@@ -132,7 +132,7 @@
     "ntp": true,
     "offline": false,
     "packages_aur": ["yay-bin", "mkinitcpio-firmware"],
-    "plugin" : "https://raw.githubusercontent.com/phisch/archinstall-aur/master/archinstall-aur.py",
+    "plugin": "https://github.com/phisch/archinstall-aur/raw/master/archinstall-aur.py",
     "packages": [
         "ntfs-3g",
         "smartmontools",
