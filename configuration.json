@@ -150,7 +150,7 @@
         "iwd",
         "wpa_supplicant",
         "xorg-server",
-        "nvidia",
+        "nvidia"
     ],
     "parallel downloads": 5,
     "profile_config": null,
