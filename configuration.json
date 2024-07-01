@@ -162,7 +162,7 @@
     "swap": true,
     "timezone": "Europe/London",
     "uki": false,
-    "version": "2.8.0".
+    "version": "2.8.0"
     "custom-commands": [
 	"FILE=` ls /boot/loader/entries | grep -P '^((?!fallback).)*$' ` | sed -i '$s/$/ nvidia-drm.modeset=1/' /boot/loader/entries/$FILE",
 	"sed -i 's/MODULES=(btrfs)/MODULES=(btrfs nvidia nvidia_modeset nvidia_uvm nvidia_drm)/g' /etc/mkinitcpio.conf",
