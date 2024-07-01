@@ -131,8 +131,6 @@
     "no_pkg_lookups": false,
     "ntp": true,
     "offline": false,
-    "packages_aur": ["yay-bin", "mkinitcpio-firmware"],
-    "plugin": "https://github.com/phisch/archinstall-aur/raw/master/archinstall-aur.py",
     "packages": [
         "ntfs-3g",
         "smartmontools",
